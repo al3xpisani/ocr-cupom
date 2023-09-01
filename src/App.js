@@ -12,29 +12,7 @@ function App() {
     let timeStarting = new Date().getTime();
     console.log("starting ......");
 
-    //Nota jaú serve
-    // Tesseract.recognize("https://i.ibb.co/zh91bjb/IMG-4266.jpg", "por", {
-    //   logger: ({ status, progress }) => {
-    //     console.log(status, ` -> ` + Math.round(progress * 100) + ` %`);
-    //   },
-    // }).then(({ data: { text } }) => {
-
-    //cupom fiscal Bahia
-    // Tesseract.recognize("https://i.ibb.co/8YyB26g/image.png", "por", {
-    //   logger: ({ status, progress }) => {
-    //     console.log(status, ` -> ` + Math.round(progress * 100) + ` %`);
-    //   },
-    // }).then(({ data: { text } }) => {
-
-    //cupom fiscal bahia
-    // Tesseract.recognize("https://i.ibb.co/mcndD0Q/image.png", "por", {
-    //   logger: ({ status, progress }) => {
-    //     console.log(status, ` -> ` + Math.round(progress * 100) + ` %`);
-    //   },
-    // }).then(({ data: { text } }) => {
-
-    //cupom ceará
-    Tesseract.recognize("https://i.ibb.co/Lv0fJS6/image.png", "por", {
+    Tesseract.recognize("https://i.ibb.co/.......png", "por", {
       logger: ({ status, progress }) => {
         console.log(status, ` -> ` + Math.round(progress * 100) + ` %`);
       },
